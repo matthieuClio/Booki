@@ -15,8 +15,10 @@
 
 body {
     /* Base 10px */
-    /* font-size: 62.5%;  */
+    font-size: 62.5%;
+    font-size: 12px;
     font-family: 'Raleway-Regular';
+    max-width: 1400px;
 }
 
 img {
@@ -27,37 +29,36 @@ img {
 /* Layout */
 /* ...... */
 
-.menu {
+/* header */
+
+header {
+    border: 2px solid purple;
     display: flex;
-    border: 2px solid black;
+    justify-content: space-between;
 }
 
-.menu-logo {
+header figure {
+    border: 3px solid blue;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 50px;
     width: 70px;
 }
 
-.menu-container {
-    border: 3px solid red;
-    width: 100%;
-}
-
-.link-container {
+header nav ul {
+    border: 3px solid blue;
     display: flex;
     justify-content: flex-end;
-    border: 3px solid purple;
     list-style-type: none;
 }
 
-.link {
+header ul li {
     margin-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border: 2px solid green;
-    cursor: pointer;
 }
+
 
 /* Components */
 /* .......... */
@@ -67,4 +68,12 @@ img {
     height: 20px;
     background-color:grey;
     border-radius: 5px;
+}
+
+
+/* Factored */
+/* ........ */
+
+.cursor-pointer {
+    cursor: pointer;
 }
