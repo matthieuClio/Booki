@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'Raleway-Regular';
+    src: url('../assets/fonts/static/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base */
+/* .... */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    /* Base 10px */
+    /* font-size: 62.5%;  */
+    font-family: 'Raleway-Regular';
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* Layout */
+/* ...... */
+
+.menu {
+    display: flex;
+    border: 2px solid black;
+}
+
+.menu-logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    width: 70px;
+}
+
+.menu-container {
+    border: 3px solid red;
+    width: 100%;
+}
+
+.link-container {
+    display: flex;
+    justify-content: flex-end;
+    border: 3px solid purple;
+    list-style-type: none;
+}
+
+.link {
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+/* Components */
+/* .......... */
+
+.position-icon {
+    display: inline-block;
+    height: 20px;
+    background-color:grey;
+    border-radius: 5px;
+}
