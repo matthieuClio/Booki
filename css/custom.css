@@ -43,7 +43,7 @@ h1 {
 /* header */
 
 header {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     justify-content: space-between;
 }
@@ -56,16 +56,23 @@ header figure {
 }
 
 header nav ul {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     display: flex;
-    justify-content: flex-end;
     list-style-type: none;
 }
 
 header ul li {
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 2px solid green;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 2px solid white;
+    /* border: 1px solid green; */
+}
+
+header ul li:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
 
@@ -127,6 +134,7 @@ header ul li {
     border: 2px solid #F0F2F6;
     padding: 10px;
     border-radius: 10rem;
+    font-weight: bold;
 }
 
 .component-filter-economic:hover {
