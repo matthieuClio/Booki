@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'Raleway-Regular';
+    src: url('../assets/fonts/static/Raleway-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
 /* Base */
 /* .... */
 
@@ -25,6 +32,10 @@ img {
 	max-width: 100%;
 }
 
+h1 {
+    margin: 0;
+}
+
 
 /* Layout */
 /* ...... */
@@ -41,7 +52,6 @@ header figure {
     border: 3px solid blue;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 50px;
     width: 70px;
 }
 
@@ -53,7 +63,6 @@ header nav ul {
 }
 
 header ul li {
-    margin-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     border: 2px solid green;
@@ -63,11 +72,36 @@ header ul li {
 /* Components */
 /* .......... */
 
-.position-icon {
-    display: inline-block;
-    height: 20px;
-    background-color:grey;
-    border-radius: 5px;
+.component-search {
+    display: flex;
+    border: 2px solid purple;
+}
+.component-search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.component-search-city {
+    padding-right: 5px;
+    padding-left: 5px;
+    outline: none;
+    border: 1px solid #F2F2F2; 
+    font-weight: bold;
+}
+
+.component-search-button {
+    width: 90px;
+    outline: none;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
 }
 
 
@@ -76,4 +110,12 @@ header ul li {
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.padding-left {
+    padding-left: 50px;
+}
+
+.padding-right {
+    padding-right: 50px;
 }

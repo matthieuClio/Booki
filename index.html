@@ -13,9 +13,9 @@
 
     <body>
         <!-- menu -->
-        <header>
+        <header class="padding-left padding-right">
             <figure>
-                <img src="assets/logo/Booki.png" class="cursor-pointer">
+                <img src="assets/logo/Booki.png" class="cursor-pointer" alt="Logo booki">
             </figure>
             <nav>
                 <ul>
@@ -29,15 +29,22 @@
             </nav>
         </header>
 
-        <!-- <section>
-            <h1>Titre principal</h1>
-            <p>Paragraphe</p>
+        <section class="padding-left" style="border: 2px solid purple;">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
         </section>
 
-        <!-- Composant position/ville ->
-        <span class="position-icon">
-            test
-        </span>
-        <input type="text"> -->
+        <!-- Component city/position -->
+        <div class="component-search padding-left">
+            <div class="component-search-icon cursor-pointer">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <input type="text" value="Marseille, France" class="component-search-city">
+
+            <input type="submit" value="Rechercher" class="component-search-button cursor-pointer">
+            <!-- <div class="component-search-button">
+            </div> -->
+        </div>
     </body>
 </html>
