@@ -72,10 +72,13 @@ header ul li {
 /* Components */
 /* .......... */
 
+/* Component search */
+
 .component-search {
     display: flex;
     border: 2px solid purple;
 }
+
 .component-search-icon {
     display: flex;
     justify-content: center;
@@ -104,6 +107,37 @@ header ul li {
     border-radius: 0px 15px 15px 0px;
 }
 
+/* Component filter */
+
+.component-filter {
+    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+}
+
+.component-filter h2 {
+    margin-right: 10px;
+}
+
+.component-filter-content {
+    display: flex;
+}
+
+.component-filter-economic {
+    border: 2px solid #F0F2F6;
+    padding: 10px;
+    border-radius: 10rem;
+}
+
+.component-filter-economic:hover {
+    background-color: #DEEBFF;
+}
+
+.component-filter-economic i {
+    color: #0065FC;
+    margin-right: 5px;
+}
+
 
 /* Factored */
 /* ........ */
@@ -118,4 +152,8 @@ header ul li {
 
 .padding-right {
     padding-right: 50px;
+}
+
+.margin-right {
+    margin-right: 20px;
 }
