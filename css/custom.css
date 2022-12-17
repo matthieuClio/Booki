@@ -148,6 +148,20 @@ header ul li:hover {
     margin-right: 5px;
 }
 
+/* Component notification */
+
+p {
+    border: 2px solid purple;
+}
+
+.component-notification-icon {
+    padding: 5px 10px 8px 10px;
+    margin-right: 10px;
+    border: 2px solid #F0F2F6;
+    border-radius: 30px;
+    color: #0065FC;
+}
+
 
 /* Factored */
 /* ........ */
