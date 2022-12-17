@@ -128,22 +128,22 @@ header ul li:hover {
     margin-right: 10px;
 }
 
-.component-filter-content {
+.component-filter-container {
     display: flex;
 }
 
-.component-filter-economic {
+.component-filter-content {
     border: 2px solid #F0F2F6;
     padding: 10px;
     border-radius: 10rem;
     font-weight: bold;
 }
 
-.component-filter-economic:hover {
+.component-filter-content:hover {
     background-color: #DEEBFF;
 }
 
-.component-filter-economic i {
+.component-filter-content i {
     color: #0065FC;
     margin-right: 5px;
 }
