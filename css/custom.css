@@ -39,6 +39,10 @@ h1 {
     margin: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 /* Layout */
 /* ...... */
@@ -101,6 +105,18 @@ header figure {
     border: 2px solid purple;
 }
 
+/* Footer */
+
+footer nav {
+    display: flex;
+    border: 2px solid skyblue;
+}
+
+footer ul {
+    border: 2px solid blue;
+    padding: 20px;
+    width: 200px;
+}
 
 /* Components */
 /* .......... */
@@ -110,7 +126,6 @@ header figure {
 header nav ul {
     border: 3px solid blue;
     display: flex;
-    list-style-type: none;
 }
 
 header ul li {
@@ -276,7 +291,7 @@ header ul li:hover {
 
 /* Component-footer */
 .component-footer {
-    height: 120px;
+    min-height: 120px;
     background-color: #F2F2F2;
 }
 
@@ -322,4 +337,12 @@ header ul li:hover {
 
 .margin-left {
     margin-left: 20px;
+}
+
+.margin-bottom-footer {
+    margin-bottom: 10px;
+}
+
+.margin-right-footer {
+    margin-right: 100px;
 }
