@@ -64,6 +64,8 @@ header figure {
 
 /* Main */
 
+/* Accomodation */
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -84,8 +86,13 @@ header figure {
     border: 2px solid red;
 }
 
+/* Popular */
+
 .container-popular-primary {
+    display: flex;
+    flex-direction: column;
     padding-top: 30px;
+    padding-bottom: 30px;
     padding-right: 20px;
     padding-left: 20px;
     width: 350px;
@@ -99,7 +106,39 @@ header figure {
 }
 
 .container-popular-secondary {
+    border: 2px solid blue;
+    display: flex;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
 }
+
+.container-popular-secondary figure {
+    border: 2px solid green;
+    display: flex;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    width: 100px;
+}
+
+.container-popular-secondary img {
+    height: 110px;
+    object-fit: cover;
+}
+
+.component-popular-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+    border: 2px solid red;
+}
+
+.component-popular-comment {
+    margin-top: 5px;
+}
+
+/* Activity */
 
 .activity-container{
     border: 2px solid purple;
