@@ -269,6 +269,13 @@ header ul li:hover {
     padding: 10px;
 }
 
+/* Component-footer */
+.component-footer {
+    height: 120px;
+    background-color: #F2F2F2;
+}
+
+
 /* Factored */
 /* ........ */
 
