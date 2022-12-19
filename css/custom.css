@@ -89,6 +89,11 @@ header figure {
     border-radius: 20px;
 }
 
+.container-popular-primary h2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container-popular-secondary {
 }
 
