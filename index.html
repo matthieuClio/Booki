@@ -29,75 +29,73 @@
                 </ul>
             </nav>
         </header>
-
-        <section style="border: 2px solid purple;">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>
-        </section>
-
-        <form method="post" action="#">
-            <!-- Component city/position -->
-            <div class="component-search">
-                <div class="component-search-icon cursor-pointer">
-                    <i class="fa-solid fa-location-dot"></i>
-                </div>
-
-                <input type="text" value="Marseille, France" class="component-search-city">
-                <input type="submit" value="Rechercher" class="component-search-button cursor-pointer">
-            </div>
-
-            <!-- Component filter -->
-            <div class="component-filter">
-                <h2>Filtres</h2>
-
-                <div class="component-filter-container margin-right">
-                    <div class="component-filter-content margin-right cursor-pointer">
-                        <i class="fa-solid fa-money-bill-wave color-primary"></i>
-                        Économique
-                    </div>
-
-                    <div class="component-filter-content cursor-pointer">
-                        <i class="fa-solid fa-person color-primary"></i>
-                        Famillial
-                    </div>
-                </div>
-
-                <div class="component-filter-container">
-                    <div class="component-filter-content margin-right cursor-pointer">
-                        <i class="fa-solid fa-heart color-primary"></i>
-                        Romantique
-                    </div>
-
-                    <div class="component-filter-content cursor-pointer">
-                        <i class="fa-solid fa-dog color-primary"></i>
-                        Annimaux autorisés
-                    </div>
-                </div>
-            </div>
-        </form>
-
-        <!-- Component notification -->
-        <p style="border: 2px solid purple;">
-            <i class="fa-solid fa-info component-notification-icon color-primary"></i>
-            Plus de 500 logements sont disponibles dans cette ville
-        </p>
-
         <!-- Main elements -->
         <main>
+            <section style="border: 2px solid purple;">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </section>
+
+            <form>
+                <!-- Component city/position -->
+                <div class="margin-top component-search">
+                    <div class="component-search-icon cursor-pointer">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <input type="text" value="Marseille, France" class="component-search-city">
+                    <input type="submit" value="Rechercher" class="component-search-button cursor-pointer">
+                </div>
+
+                <!-- Component filter -->
+                <div class="component-filter margin-top">
+                    <h2>Filtres</h2>
+
+                    <div class="component-filter-container margin-right">
+                        <div class="component-filter-content margin-right cursor-pointer">
+                            <i class="fa-solid fa-money-bill-wave color-primary"></i>
+                            Économique
+                        </div>
+
+                        <div class="component-filter-content cursor-pointer">
+                            <i class="fa-solid fa-person color-primary"></i>
+                            Famillial
+                        </div>
+                    </div>
+
+                    <div class="component-filter-container">
+                        <div class="component-filter-content margin-right cursor-pointer">
+                            <i class="fa-solid fa-heart color-primary"></i>
+                            Romantique
+                        </div>
+
+                        <div class="component-filter-content cursor-pointer">
+                            <i class="fa-solid fa-dog color-primary"></i>
+                            Annimaux autorisés
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Component notification -->
+            <p class="margin-top" style="border: 2px solid purple;">
+                <i class="fa-solid fa-info component-notification-icon color-primary"></i>
+                Plus de 500 logements sont disponibles dans cette ville
+            </p>
             <div class="container margin-top" style="border: 2px solid purple;">
-                <section class="container-accomodation-primary">
+                <section class="container-accomodation-primary margin-right">
                     <h2 class="margin-bottom" style="border: 2px solid blue;">Hébergements à Marseille</h2>
                     <div class="container-accomodation-secondary">
                         <!-- Component accommodation -->
-                        <div class="component-accommodation">
+                        <div class="component-accommodation margin-right">
                             <figure>
                                 <img src="./assets/images/hebergements/auberge-la-canebiere.jpg" 
-                                    alt="hébergement"
+                                    alt="Auberge la canebière"
                                     class="component-accommodation-image"
                                 >
                             </figure>
-                            <div class="component-accommodation-text" style="border:2px solid red;">
-                                <p class="font-weight-bold">Auberge la canebière</p>
+                            <div class="component-accommodation-text">
+                                <p class="font-weight-bold font-size-bold">Auberge la canebière</p>
                                 <div class="component-accommodation-comment">
                                     Nuit à partir de 25<span class="font-weight-bold">€</span>
                                 </div>
@@ -113,17 +111,17 @@
                             </div>
                         </div>
                         <!-- Component accommodation -->
-                        <div class="component-accommodation">
+                        <div class="component-accommodation margin-right">
                             <figure>
-                                <img src="./assets/images/hebergements/auberge-la-canebiere.jpg" 
-                                    alt="hébergement"
+                                <img src="./assets/images/hebergements/hotel-du-port.jpg" 
+                                    alt="Hôtel du port"
                                     class="component-accommodation-image"
                                 >
                             </figure>
                             <div class="component-accommodation-text">
-                                <p class="font-weight-bold">Auberge la canebière</p>
+                                <p class="font-weight-bold font-size-bold">Hôtel du port</p>
                                 <div class="component-accommodation-comment">
-                                    Nuit à partir de 25<span class="font-weight-bold">€</span>
+                                    Nuit à partir de 52<span class="font-weight-bold">€</span>
                                 </div>
                                 <div class="color-primary">
                                     <i class="fa-solid fa-star"></i>
@@ -139,15 +137,87 @@
                         <!-- Component accommodation -->
                         <div class="component-accommodation">
                             <figure>
-                                <img src="./assets/images/hebergements/auberge-la-canebiere.jpg" 
-                                    alt="hébergement"
+                                <img src="./assets/images/hebergements/hotel-les-mouettes.jpg" 
+                                    alt="Hôtel Les mouettes"
                                     class="component-accommodation-image"
                                 >
                             </figure>
                             <div class="component-accommodation-text">
-                                <p class="font-weight-bold">Auberge la canebière</p>
+                                <p class="font-weight-bold font-size-bold">Hôtel Les mouettes</p>
                                 <div class="component-accommodation-comment">
-                                    Nuit à partir de 25<span class="font-weight-bold">€</span>
+                                    Nuit à partir de 76<span class="font-weight-bold">€</span>
+                                </div>
+                                <div class="color-primary">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="component-accommodation-icon">
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Component accommodation -->
+                        <div class="component-accommodation margin-top margin-right">
+                            <figure>
+                                <img src="./assets/images/hebergements/hotel-de-la-mer.jpg" 
+                                    alt="Hôtel de la mer"
+                                    class="component-accommodation-image"
+                                >
+                            </figure>
+                            <div class="component-accommodation-text">
+                                <p class="font-weight-bold font-size-bold">Hôtel de la mer</p>
+                                <div class="component-accommodation-comment">
+                                    Nuit à partir de 46<span class="font-weight-bold">€</span>
+                                </div>
+                                <div class="color-primary">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="component-accommodation-icon">
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Component accommodation -->
+                        <div class="component-accommodation margin-top margin-right">
+                            <figure>
+                                <img src="./assets/images/hebergements/auberge-le-panier.jpg" 
+                                    alt="Auberge Le Panier"
+                                    class="component-accommodation-image"
+                                >
+                            </figure>
+                            <div class="component-accommodation-text">
+                                <p class="font-weight-bold font-size-bold">Auberge Le Panier</p>
+                                <div class="component-accommodation-comment">
+                                    Nuit à partir de 23<span class="font-weight-bold">€</span>
+                                </div>
+                                <div class="color-primary">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="component-accommodation-icon">
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Component accommodation -->
+                        <div class="component-accommodation margin-top">
+                            <figure>
+                                <img src="./assets/images/hebergements/hotel-chez-amina.jpg" 
+                                    alt="Hôtel Chez Amina"
+                                    class="component-accommodation-image"
+                                >
+                            </figure>
+                            <div class="component-accommodation-text">
+                                <p class="font-weight-bold font-size-bold">Hôtel Chez Amina</p>
+                                <div class="component-accommodation-comment">
+                                    Nuit à partir de 96<span class="font-weight-bold">€</span>
                                 </div>
                                 <div class="color-primary">
                                     <i class="fa-solid fa-star"></i>
@@ -164,6 +234,10 @@
                         
                     </div>
                     <!-- End container secondary -->
+
+                    <span class="show-more cursor-pointer font-weight-bold font-size-bold">
+                        Afficher Plus
+                    </span>
                 </section>
 
                 <section class="container-popular-primary">
@@ -173,16 +247,63 @@
                             <i class="fa-solid fa-chart-line"></i>
                         </span>
                     </h2>
-                    <div class="container-popular-secondary">
-                        <!-- Component popular -->
-                        <figure>
+                   
+                    <!-- Component popular -->
+                    <div class="component-popular-container">
+                        <figure class="component-popular-figure">
                             <img src="./assets/images/hebergements/hotel-le-soleil-du-matin.jpg" alt="Hôtel le soleil du matin">
                         </figure>
                         <div class="component-popular-text">
                             <div style="border: 2px solid green;">
-                                <p class="font-weight-bold">Hôtel le soleil du matin</p>
+                                <p class="font-weight-bold font-size-bold">Hôtel le soleil du matin</p>
                                 <div class="component-popular-comment">
-                                    Nuit à partir de 128€
+                                    Nuit à partir de 128<span class="font-weight-bold">€</span>
+                                </div>
+                            </div>
+                            <div class="color-primary" style="border: 2px solid pink;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="component-accommodation-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Component popular -->
+                    <div class="component-popular-container margin-top">
+                        <figure class="component-popular-figure">
+                            <img src="./assets/images/hebergements/chambres-hotes-au-coeur-de-eau.jpg" alt="Chambres d'hôtes au coeur de l'eau">
+                        </figure>
+                        <div class="component-popular-text">
+                            <div style="border: 2px solid green;">
+                                <p class="font-weight-bold font-size-bold">Chambres d'hôtes au coeur de l'eau</p>
+                                <div class="component-popular-comment">
+                                    Nuit à partir de 71<span class="font-weight-bold">€</span>
+                                </div>
+                            </div>
+                            <div class="color-primary" style="border: 2px solid pink;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="component-accommodation-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Component popular -->
+                     <div class="component-popular-container margin-top">
+                        <figure class="component-popular-figure">
+                            <img src="./assets/images/hebergements/hotel-bleu-et-blanc.jpg" alt="Hôtel bleu et blanc">
+                        </figure>
+                        <div class="component-popular-text">
+                            <div style="border: 2px solid green;">
+                                <p class="font-weight-bold font-size-bold">Hôtel bleu et blanc</p>
+                                <div class="component-popular-comment">
+                                    Nuit à partir de 68<span class="font-weight-bold">€</span>
                                 </div>
                             </div>
                             <div class="color-primary" style="border: 2px solid pink;">
@@ -199,72 +320,83 @@
                 </section>
             </div>
 
-            <section class="activity-container margin-top">
+            <article class="activity-container margin-top">
                 <h2 class="margin-bottom" style="border: 2px solid blue;">Activités à Marseille</h2>
                 <div class="activity-container-primary">  
                     <!-- Component activity -->
-                    <div>
-                        <figure>
-                            <img src="./assets/images/activites/vieux-port.jpg" alt="Le vieux port">
-                            <figcaption class="font-weight-bold">
-                                Vieux-Port
-                            </figcaption>
-                        </figure>
-                    </div>
+                    <figure class="margin-right-component">
+                        <img src="./assets/images/activites/vieux-port.jpg" alt="Le vieux port">
+                        <figcaption class="font-weight-bold">
+                            Vieux-Port
+                        </figcaption>
+                    </figure>
                      <!-- Component activity -->
-                     <div>
-                        <figure>
-                            <img src="./assets/images/activites/vieux-port.jpg" alt="Le vieux port">
-                            <figcaption class="font-weight-bold">
-                                Vieux-Port
-                            </figcaption>
-                        </figure>
-                    </div>
+                    <figure class="margin-right-component">
+                        <img src="./assets/images/activites/fort-de-pomegues.jpg" alt="Fort de pomegues">
+                        <figcaption class="font-weight-bold">
+                            Fort de Pomègues
+                        </figcaption>
+                    </figure>
+                    <!-- Component activity -->
+                    <figure class="margin-right-component">
+                        <img src="./assets/images/activites/parc-national-des-calanques.jpg" alt="Parc national des calanques">
+                        <figcaption class="font-weight-bold">
+                            Parc national des Calanques
+                        </figcaption>
+                    </figure>
+                    <!-- Component activity -->
+                    <figure>
+                        <img src="./assets/images/activites/notre-dame-de-la-garde.jpg" alt="Notre-Dame-de-la-Garde">
+                        <figcaption class="font-weight-bold">
+                            Notre-Dame-de-la-Garde
+                        </figcaption>
+                    </figure>
                 </div>
-            </section>
-
-            <footer class="component-footer">
-                <nav>
-                    <ul class="margin-left margin-right-footer">
-                        <li class="font-weight-bold margin-bottom-footer">
-                            À propos
-                        </li>
-                        <li class="margin-bottom-footer">
-                            Fonctionnement du site
-                        </li>
-                        <li class="margin-bottom-footer">
-                            Conditions générales
-                        </li>
-                        <li>
-                            Données et confidentialité
-                        </li>
-                    </ul>
-
-                    <ul class="margin-right-footer">
-                        <li class="font-weight-bold margin-bottom-footer">
-                            Nos hébergements
-                        </li>
-                        <li class="margin-bottom-footer">
-                            Charte qualité
-                        </li>
-                        <li class="margin-bottom-footer">
-                            Proposer votre hôtel
-                        </li>
-                    </ul>
-
-                    <ul class="margin-right-footer">
-                        <li class="font-weight-bold margin-bottom-footer">
-                            Assistance
-                        </li>
-                        <li class="margin-bottom-footer">
-                            Centre d'aide
-                        </li>
-                        <li class="margin-bottom-footer">
-                            Nous contacter
-                        </li>
-                    </ul>
-                </nav>
-            </footer>
+            </article>
         </main>
+
+        <footer>
+            <!-- Component footer -->
+            <nav class="component-footer margin-top">
+                <ul class="margin-left margin-right-footer">
+                    <li class="footer-title font-weight-bold">
+                        <h3>À propos</h3>
+                    </li>
+                    <li class="margin-bottom-footer">
+                        Fonctionnement du site
+                    </li>
+                    <li class="margin-bottom-footer">
+                        Conditions générales
+                    </li>
+                    <li>
+                        Données et confidentialité
+                    </li>
+                </ul>
+
+                <ul class="margin-right-footer">
+                    <li class="footer-title font-weight-bold">
+                        <h3>Nos hébergements</h3>
+                    </li>
+                    <li class="margin-bottom-footer">
+                        Charte qualité
+                    </li>
+                    <li class="margin-bottom-footer">
+                        Proposer votre hôtel
+                    </li>
+                </ul>
+
+                <ul class="margin-right-footer">
+                    <li class="footer-title font-weight-bold">
+                        <h3>Assistance</h3>
+                    </li>
+                    <li class="margin-bottom-footer">
+                        Centre d'aide
+                    </li>
+                    <li class="margin-bottom-footer">
+                        Nous contacter
+                    </li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
