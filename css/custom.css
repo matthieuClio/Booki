@@ -23,7 +23,6 @@
 }
 
 body {
-    /* border: 2px solid pink; */
     margin: auto;
     padding-right: 30px;
     padding-left: 30px;
@@ -58,34 +57,29 @@ ul {
 /* header */
 
 header {
-    /* border: 2px solid purple; */
     display: flex;
     justify-content: space-between;
 }
 
 header figure {
-    /* border: 3px solid blue; */
     margin-top: auto;
     margin-bottom: auto;
     width: 70px;
 }
 
 .main-title-subtitle {
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 /* Accomodation */
 
 .container {
-    /* border: 2px solid purple; */
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .container-accomodation-primary {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 30px;
@@ -104,7 +98,6 @@ header figure {
 }
 
 .show-more {
-    /* border: 2px solid orange; */
     display: inline-block;
     margin-top: 50px;
 }
@@ -118,7 +111,6 @@ header figure {
     padding-bottom: 40px;
     padding-right: 30px;
     padding-left: 30px;
-    /* width: 350px; */
     width: 27%;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -129,6 +121,11 @@ header figure {
     justify-content: space-between;
 }
 
+.container-popular-secondary {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Activity */
 
 .activity-container{
@@ -137,7 +134,6 @@ header figure {
 }
 
 .activity-container-primary {
-    /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
 }
@@ -221,9 +217,9 @@ header ul li:hover {
 /* Component filter */
 
 .component-filter {
-    /* border: 2px solid purple; */
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .component-filter h2 {
@@ -312,7 +308,6 @@ header ul li:hover {
 /* component popular */
 
 .component-popular-container {
-    /* border: 2px solid blue; */
     display: flex;
     padding: 5px;
     background-color: #FFFFFF;
@@ -339,7 +334,6 @@ header ul li:hover {
     justify-content: space-between;
     width: 180px;
     margin-left: 15px;
-    border: 2px solid red;
 }
 
 .component-popular-comment {
@@ -437,7 +431,7 @@ header ul li:hover {
     margin-right: 40px;
 }
 
-.margin-top-component-populary {
+.margin-top-component-popular {
     margin-top: 40px;
 }
 
@@ -449,15 +443,118 @@ header ul li:hover {
     /* .... */
 
     body {
-        background-color: orange;
+        font-size: 16px;
     }
 
     /* Layout */
     /* ...... */
 
+    /* Accomodation */
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-accomodation-primary {
+        width: auto;
+        margin: 0;
+    }
+
+    /* Popular */
+
+    .container-popular-primary {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+        padding-left: 30px;
+        width: auto;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+
+    .container-popular-secondary {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* Footer */
+
+    footer ul {
+        width: 800px;
+    }
+
+    .footer-title {
+        margin-bottom: 17px;
+    }
+
+    .component-footer ul {
+        font-size: 18px;
+    }
+
     /* Components */
     /* .......... */
 
+    /* Component search */
+
+    .component-search-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .component-search-city {
+        padding-right: 5px;
+        padding-left: 18px;
+    }
+
+    .component-search-button {
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 130px;
+    }
+
+    /* Component filter */
+
+    .component-filter-content {
+        border: 2px solid #F0F2F6;
+        padding: 13px 20px 13px 20px;
+        border-radius: 10rem;
+        font-size: 16px;
+    }
+
+    /* Component accomodation */
+
+    .component-accommodation {
+        padding: 3px;
+        width: 30%;
+        background-color: #FFFFFF;
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+        border-radius: 20px;
+    }
+
+    /* Component activity */
+
+    .activity-container-primary figure img {
+        height: 220px;
+    }
+
     /* Factored */
     /* ........ */
+
+    .margin-top-component-popular {
+        margin-top: 0;
+    }
+
+    .margin-right-component-popular {
+        margin-right: 20px;
+    }
+
+    .margin-right-footer { 
+        margin-right: 40px;
+    }
 }
+
