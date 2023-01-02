@@ -71,13 +71,13 @@ header figure {
     margin-top: 8px;
 }
 
-/* Accomodation */
+/* Accommodation */
 
 .container {
     display: flex;
 }
 
-.container-accomodation-primary {
+.container-accommodation-primary {
     display: flex;
     flex-direction: column;
     padding-top: 40px;
@@ -90,7 +90,7 @@ header figure {
     border-radius: 20px;
 }
 
-.container-accomodation-secondary {
+.container-accommodation-secondary {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -443,14 +443,14 @@ header ul li:hover {
     /* Layout */
     /* ...... */
 
-    /* Accomodation */
+    /* Accommodation */
 
     .container {
         flex-direction: column;
         align-items: center;
     }
 
-    .container-accomodation-primary {
+    .container-accommodation-primary {
         width: auto;
         margin: 0;
     }
@@ -520,7 +520,7 @@ header ul li:hover {
         font-size: 16px;
     }
 
-    /* Component accomodation */
+    /* Component accommodation */
 
     .component-accommodation {
         padding: 3px;
@@ -598,40 +598,54 @@ header ul li:hover {
         padding-left: 20px;
     }
 
-    /* Accomodation */
+    /* Populary */
+
+    .container-popular-primary {
+        order: 1;
+        width: auto;
+    }
+
+    /* Accommodation */
 
     .container {
         flex-direction: column;
     }
 
-    .container-accomodation-primary {
+    .container-accommodation-primary {
         order: 2;
-        /* display: flex;
-        flex-direction: column;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-right: 30px;
-        padding-left: 30px; */
         margin-right: 0;
         width: auto;
         background-color: #FFFFFF;
         border-radius: 0;
     }
 
-    /* Populary */
+    /* Show more */
 
-    .container-popular-primary {
-        order: 1;
-        /* display: flex;
-        flex-direction: column;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-right: 30px;
-        padding-left: 30px; */
-        width: auto;
-        /* background-color: #F2F2F2;
-        border-radius: 20px; */
+    .show-more {
+        display: none;
+        border: 2px solid red;
     }
+
+    /* Activity */
+
+    .activity-container {
+        margin-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .activity-container .margin-bottom {
+        margin-bottom: 5px;
+    }
+
+    .activity-container h2 {
+        max-width: 200px;
+    }
+
+    .activity-container-primary {
+        flex-direction: column;
+    }
+
 
     /* Components */
     /* .......... */
@@ -733,8 +747,7 @@ header ul li:hover {
 
     /* Component accommodation */
 
-    .container-accomodation-secondary {
-        border: 2px solid red;
+    .container-accommodation-secondary {
         flex-direction: column;
     }
 
@@ -746,8 +759,48 @@ header ul li:hover {
         height: 200px;
     }
 
-    .container-accomodation-primary .margin-top {
+    .container-accommodation-primary .margin-top {
         margin-top: 0;
+    }
+
+    .component-accommodation-text {
+        margin: 15px 5px 10px 8px;
+    }
+
+    .component-accommodation p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .component-accommodation-comment {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    /* Component activity */
+
+    .activity-container {
+        margin-bottom: 80px;
+    }
+
+    .margin-right-component-activity {
+        margin-right: 0;
+    }
+
+    .activity-container-primary figure {
+        margin-bottom: 40px;
+        max-width: 100%;
+        border-radius: 35px;
+        background-color: #FFFFFF;
+    }
+
+    .activity-container-primary figure img {
+        height: 200px;
+    }
+
+    .activity-container-primary figcaption {
+        padding: 30px 30px 25px 30px;
+        font-size: 23px;
     }
 
     /* Factored */
