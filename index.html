@@ -20,12 +20,17 @@
 
             <nav>
                 <ul>
-                    <li class="cursor-pointer">
-                        Hébergements
-                    </li>
-                    <li class="cursor-pointer">
-                        Activités
-                    </li>
+                    <a href="#accommodation">
+                        <li class="cursor-pointer">
+                            Hébergements
+                        </li>
+                    </a>
+
+                    <a href="#activity">
+                        <li class="cursor-pointer">
+                            Activités
+                        </li>
+                    </a>
                 </ul>
             </nav>
         </header>
@@ -84,13 +89,15 @@
             </form>
 
             <!-- Component notification -->
-            <p class="component-notification-container">
+            <div class="component-notification">
                 <i class="fa-solid fa-info component-notification-icon color-primary"></i>
-                Plus de 500 logements sont disponibles dans cette ville
-            </p>
+                <p class="component-notification-container">
+                    Plus de 500 logements sont disponibles dans cette ville
+                </p>
+            </div>
 
             <div class="container">
-                <section class="container-accommodation-primary">
+                <section class="container-accommodation-primary" id="accommodation">
                     <h2 class="margin-bottom">Hébergements à Marseille</h2>
                     <div class="container-accommodation-secondary">
                         <!-- Component accommodation -->
@@ -328,7 +335,7 @@
                 </section>
             </div>
 
-            <article class="activity-container">
+            <article class="activity-container" id="activity">
                 <h2 class="margin-bottom">Activités à Marseille</h2>
                 <div class="activity-container-primary">  
                     <!-- Component activity -->

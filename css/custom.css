@@ -50,6 +50,15 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #0065FC;
+}
+
 
 /* Layout */
 /* ...... */
@@ -157,12 +166,10 @@ footer ul {
 /* Component menu */
 
 header nav ul {
-    /* border: 3px solid blue; */
     display: flex;
 }
 
 header ul li {
-    /* border: 1px solid green; */
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 15px;
@@ -173,7 +180,6 @@ header ul li {
 }
 
 header ul li:hover {
-    color: #0065FC;
     border-top: 2px solid #0065FC;
 }
 
@@ -232,6 +238,8 @@ header ul li:hover {
 }
 
 .component-filter-content {
+    display: flex;
+    align-items: center;
     border: 2px solid #F0F2F6;
     padding: 10px 12px 10px 12px;
     border-radius: 10rem;
@@ -246,6 +254,11 @@ header ul li:hover {
 }
 
 /* Component notification */
+
+.component-notification {
+    display: flex;
+    align-items: center;
+}
 
 .component-notification-container {
     margin-top: 25px;
@@ -661,6 +674,11 @@ header ul li:hover {
         width: 100%;
     }
 
+    header a {
+        display: flex;
+        width: 100%;
+    }
+
     header ul li {
         padding-bottom: 30px;
         width: 100%;
@@ -708,13 +726,8 @@ header ul li:hover {
 
     /* Component filter */
 
-    .component-filter {
-        overflow: hidden;
-        flex-direction: column;
-    }
-
     .component-filter h2 {
-        width: 100%;
+        width: auto;
         padding-right: 20px;
         padding-left: 20px;
         margin-right: 0;
@@ -722,6 +735,7 @@ header ul li:hover {
     }
 
     .component-filter-container {
+        /* border: 2px solid purple; */
         justify-content: center;
         width: 100%;
     }
@@ -732,9 +746,10 @@ header ul li:hover {
 
     .component-filter-content {
         border: 2px solid #F0F2F6;
-        padding: 20px 14px 20px 14px;
-        width: 210px;
+        padding: 15px 14px 15px 14px;
+        width: 160px;
         border-radius: 10rem;
+        font-size: 13px;
     }
 
     .component-filter i {
@@ -743,11 +758,24 @@ header ul li:hover {
 
     /* Component notification */
 
-    .component-notification-container {
-        margin-top: 25px;
-        margin-bottom: 25px;
+    .component-notification {
+        align-items: baseline;
         padding-left: 20px;
-        padding-right: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .component-notification-container {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+
+    /* Component popular */
+
+    .component-popular-text {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     /* Component accommodation */
@@ -761,7 +789,7 @@ header ul li:hover {
     }
 
     .component-accommodation-image {
-        height: 200px;
+        height: 130px;
     }
 
     .container-accommodation-primary .margin-top {
@@ -769,12 +797,12 @@ header ul li:hover {
     }
 
     .component-accommodation-text {
-        margin: 15px 5px 10px 8px;
+        margin: 13px 5px 10px 8px;
     }
 
     .component-accommodation p {
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
 
     .component-accommodation-comment {
@@ -793,19 +821,19 @@ header ul li:hover {
     }
 
     .activity-container-primary figure {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         max-width: 100%;
-        border-radius: 35px;
+        border-radius: 25px;
         background-color: #FFFFFF;
     }
 
     .activity-container-primary figure img {
-        height: 200px;
+        height: 160px;
     }
 
     .activity-container-primary figcaption {
-        padding: 30px 30px 25px 30px;
-        font-size: 23px;
+        padding: 20px 20px 20px 25px;
+        font-size: 20px;
     }
 
     /* Component footer */
@@ -822,7 +850,7 @@ header ul li:hover {
     }
 
     .margin-right-component-filter-mobile {
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .margin-top-component-filter-mobile {
