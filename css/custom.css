@@ -263,7 +263,6 @@ header ul li:hover {
 /* Component accommodation */
 
 .component-accommodation {
-    /* border: 2px solid blue; */
     padding: 3px;
     width: 30%;
     background-color: #FFFFFF;
@@ -601,30 +600,38 @@ header ul li:hover {
 
     /* Accomodation */
 
-    /* .container-accomodation-primary {
-        display: flex;
+    .container {
         flex-direction: column;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-right: 30px;
-        padding-left: 30px;
-        margin-right: 40px;
-        width: 60%;
-        background-color: #F2F2F2;
-        border-radius: 20px;
     }
 
-    .container-popular-primary {
-        display: flex;
+    .container-accomodation-primary {
+        order: 2;
+        /* display: flex;
         flex-direction: column;
         padding-top: 40px;
         padding-bottom: 40px;
         padding-right: 30px;
-        padding-left: 30px;
-        width: 27%;
-        background-color: #F2F2F2;
-        border-radius: 20px;
-    } */
+        padding-left: 30px; */
+        margin-right: 0;
+        width: auto;
+        background-color: #FFFFFF;
+        border-radius: 0;
+    }
+
+    /* Populary */
+
+    .container-popular-primary {
+        order: 1;
+        /* display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+        padding-left: 30px; */
+        width: auto;
+        /* background-color: #F2F2F2;
+        border-radius: 20px; */
+    }
 
     /* Components */
     /* .......... */
@@ -683,7 +690,7 @@ header ul li:hover {
     /* Component filter */
 
     .component-filter {
-        /* overflow: hidden; */
+        overflow: hidden;
         flex-direction: column;
     }
 
@@ -697,9 +704,10 @@ header ul li:hover {
 
     .component-filter-container {
         justify-content: center;
+        width: 100%;
     }
 
-    .component-filter .margin-right {
+    .margin-right {
         margin: 0;
     }
 
@@ -714,14 +722,46 @@ header ul li:hover {
         font-size: 25px;
     }
 
-.component-filter-content:hover {
-    background-color: #DEEBFF;
-}
+    /* Component notification */
 
-.component-filter-content i {
-    margin-right: 5px;
-}
+    .component-notification-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Component accommodation */
+
+    .container-accomodation-secondary {
+        border: 2px solid red;
+        flex-direction: column;
+    }
+
+    .component-accommodation {
+        width: auto;
+    }
+
+    .component-accommodation-image {
+        height: 200px;
+    }
+
+    .container-accomodation-primary .margin-top {
+        margin-top: 0;
+    }
 
     /* Factored */
     /* ........ */
+
+    .margin-bottom-component-accommodation-mobile {
+        margin-bottom: 15px;
+    }
+
+    .margin-right-component-filter-mobile {
+        margin-right: 20px;
+    }
+
+    .margin-top-component-filter-mobile {
+        margin-top: 30px;
+    }
 }
