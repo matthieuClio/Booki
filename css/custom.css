@@ -646,6 +646,11 @@ header ul li:hover {
         flex-direction: column;
     }
 
+    /* Footer */
+
+    footer .margin-left {
+        margin-left: 0;
+    }
 
     /* Components */
     /* .......... */
@@ -803,6 +808,12 @@ header ul li:hover {
         font-size: 23px;
     }
 
+    /* Component footer */
+
+    .component-footer {
+        flex-direction: column;
+    }
+
     /* Factored */
     /* ........ */
 
@@ -816,5 +827,9 @@ header ul li:hover {
 
     .margin-top-component-filter-mobile {
         margin-top: 30px;
+    }
+
+    .margin-top-footer-mobile {
+        margin-top: 40px;
     }
 }
