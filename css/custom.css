@@ -169,7 +169,11 @@ header nav ul {
     display: flex;
 }
 
-header ul li {
+header li {
+    display: flex;
+}
+
+header a {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 15px;
@@ -179,7 +183,7 @@ header ul li {
     text-align: center;
 }
 
-header ul li:hover {
+header a:hover {
     border-top: 2px solid #0065FC;
 }
 
@@ -674,12 +678,12 @@ header ul li:hover {
         width: 100%;
     }
 
-    header a {
+    header li {
         display: flex;
         width: 100%;
     }
 
-    header ul li {
+    header a {
         padding-bottom: 30px;
         width: 100%;
         border: none;
@@ -688,7 +692,7 @@ header ul li:hover {
         font-size: 18px;
     }
 
-    header ul li:hover {
+    header a:hover {
         border-top: none;
         border-bottom: 4px solid #0065FC;
     }
@@ -726,16 +730,20 @@ header ul li:hover {
 
     /* Component filter */
 
+    .component-filter {
+        margin-top: 40px;
+    }
+
     .component-filter h2 {
         width: auto;
         padding-right: 20px;
         padding-left: 20px;
+        margin-bottom: 15px;
         margin-right: 0;
         font-size: 22px;
     }
 
     .component-filter-container {
-        /* border: 2px solid purple; */
         justify-content: center;
         width: 100%;
     }
