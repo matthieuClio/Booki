@@ -24,9 +24,7 @@
 
 body {
     margin: auto;
-    /* padding: 0 30px 0 30px; */
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 0 30px 0 30px;
     max-width: 1400px;
     /* Base 10px */
     font-size: 62.5%;
@@ -90,10 +88,7 @@ header figure {
 .container-accommodation-primary {
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 40px 30px 40px 30px;
     margin-right: 40px;
     width: 60%;
     background-color: #F2F2F2;
@@ -119,10 +114,7 @@ header figure {
 .container-popular-primary {
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 40px 30px 40px 30px;
     width: 29%;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -141,8 +133,7 @@ header figure {
 /* Activity */
 
 .activity-container{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 40px 0 50px 0;
 }
 
 .activity-container-primary {
@@ -178,10 +169,7 @@ header li {
 }
 
 header a {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 40px 15px 40px 15px;
     min-width: 130px;
     border-top: 2px solid #FFFFFF;
     text-align: center;
@@ -208,8 +196,7 @@ header a:hover {
 }
 
 .component-search-city {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 0 5px 0 5px;
     outline: none;
     border: 1px solid #F2F2F2; 
     font-weight: bold;
@@ -248,8 +235,8 @@ header a:hover {
 .component-filter-content {
     display: flex;
     align-items: center;
-    border: 2px solid #F0F2F6;
     padding: 10px 12px 10px 12px;
+    border: 2px solid #F0F2F6;
     border-radius: 10rem;
 }
 
@@ -269,8 +256,7 @@ header a:hover {
 }
 
 .component-notification-container {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px 0 25px 0;
 }
 
 .component-notification-icon {
@@ -350,8 +336,8 @@ header a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 180px;
     margin-left: 15px;
+    width: 180px;
 }
 
 .component-popular-comment {
@@ -486,11 +472,8 @@ header a:hover {
     .container-popular-primary {
         display: flex;
         flex-direction: column;
+        padding: 40px 30px 40px 30px;
         margin-top: 60px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-right: 30px;
-        padding-left: 30px;
         width: auto;
         background-color: #F2F2F2;
         border-radius: 20px;
@@ -527,13 +510,11 @@ header a:hover {
     }
 
     .component-search-city {
-        padding-right: 5px;
-        padding-left: 18px;
+        padding: 0 5px 0 18px;
     }
 
     .component-search-button {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding: 0 20px 0 20px;
         width: 130px;
     }
 
@@ -602,14 +583,12 @@ header a:hover {
     header {
         flex-direction: column;
         align-items: center;
-        /* border: 5px solid purple; */
     }
     
     header figure {
         margin-top: 30px;
         margin-bottom: 15px;
         width: 80px;
-        /* border: 2px solid blue; */
     }
 
     section h1 {
@@ -654,9 +633,8 @@ header a:hover {
     /* Activity */
 
     .activity-container {
+        padding: 0 20px 0 20px;
         margin-top: 100px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     .activity-container .margin-bottom {
@@ -665,6 +643,10 @@ header a:hover {
 
     .activity-container h2 {
         max-width: 200px;
+    }
+
+    .activity-container a {
+        display: block;
     }
 
     .activity-container-primary {
@@ -745,10 +727,8 @@ header a:hover {
 
     .component-filter h2 {
         width: auto;
-        padding-right: 20px;
-        padding-left: 20px;
-        margin-bottom: 15px;
-        margin-right: 0;
+        padding: 0 20px 0 20px;
+        margin: 0 0 15px ;
         font-size: 22px;
     }
 
@@ -782,16 +762,13 @@ header a:hover {
     }
 
     .component-notification-container {
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 5px;
+        margin: 0 0 0 5px;
     }
 
     /* Component popular */
 
     .component-popular-text {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 0 10px 0;
     }
 
     /* Component accommodation */
